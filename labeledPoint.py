@@ -23,7 +23,7 @@ def SetLogger( sc ):
 def SetPath(sc):
     global Path
     if sc.master[0:5]=="local" :
-        Path="s3n://mollybigdata2017/"
+        Path="/home/m8720y/Documents/ML/HotelCTR/"
     else:   
         Path="s3n://mollybigdata2017/"
 
